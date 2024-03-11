@@ -1,4 +1,4 @@
-# Python-XAI-Mobile-Payment-Fraud-Detection-Project
+# XAI Mobile Payment Fraud Detection Project using Python
 The rising number of smartphone holders has caused mobile payment systems to gain popularity over the last decade. Despite the improved transaction convenience and accessibility, the digitization of mobile payment services has heightened fraud risks, causing millions of losses in revenue and recoverable funds. The mainstreaming of artificial intelligence (AI) technology, such as machine learning (ML) models, provides a viable mechanism to automatically detect fraudulent mobile money transactions. However, ML models suffer from difficult-to-understand black box predictions since the rationale behind those predictions is not provided.
 
 # Methodology
