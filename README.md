@@ -6,6 +6,7 @@ This project adopts a novel approach by implementing two XAI techniques, SHAP an
 
 **1) Data selection**
 The synthetic Pay Sim dataset from Kaggle which contains over 6 million simulated mobile money transaction is selected. 
+
 **2) Data pre-processing**
 Irrelevant variables and observations are removed to improve data quality and reduce model complexity.
 **3) Data transformation** 
