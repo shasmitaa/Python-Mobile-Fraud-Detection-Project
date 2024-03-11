@@ -4,12 +4,16 @@ The rising number of smartphone holders has caused mobile payment systems to gai
 # Methodology
 This project adopts a novel approach by implementing two XAI techniques, SHAP and LIME, on a synthetic mobile money dataset to investigate the possibility of making a mobile payment fraud detection model explainable. Three models, Random Forest (RF), XGBoost, and Multilayer Perceptron (MLP), were implemented and compared to determine the best model for integration with XAI techniques.
 
-**1) Data selection -** The synthetic Pay Sim dataset from Kaggle which contains over 6 million simulated mobile money transaction is selected. 
-**2) Data pre-processing -** Irrelevant variables and observations are removed to improve data quality and reduce model complexity.
-**3) Data transformation -** Feature engineering, encoding and class balancing techniques are applied to convert the data into a suitable format for data mining.
-**4) Data mining -** XGBoost, RF and MLP are applied due to their wide and successful use in mobile payment fraud detection literature.
-**5) Interpretation and evaluation -** The best model is determined using various evaluation metrics such as accuracy, precision, recall and AUC scores. XAI techniques, specifically SHAP and LIME are then applied 
-                                       to the best model and evaluated due to their ability in providing stable and interpretable explanations in past studies. 
+**1) Data selection**
+The synthetic Pay Sim dataset from Kaggle which contains over 6 million simulated mobile money transaction is selected. 
+**2) Data pre-processing**
+Irrelevant variables and observations are removed to improve data quality and reduce model complexity.
+**3) Data transformation** 
+Feature engineering, encoding and class balancing techniques are applied to convert the data into a suitable format for data mining.
+**4) Data mining** 
+XGBoost, RF and MLP are applied due to their wide and successful use in mobile payment fraud detection literature.
+**5) Interpretation and evaluation** 
+The best model is determined using various evaluation metrics such as accuracy, precision, recall and AUC scores. XAI techniques, specifically SHAP and LIME are then applied to the best model and evaluated due to their ability in providing stable and interpretable explanations in past studies. 
 
 # Programming Language and Libraries
 This project was implemented in Python, utilizing various libraries such as Pandas and Numpy for data manipulation, Matplotlib and Seaborn for data visualization as well as Scikit-learn for machine learning models.
